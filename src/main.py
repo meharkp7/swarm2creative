@@ -1,7 +1,13 @@
 import pygame
 from engine import Agent, WIDTH, HEIGHT
 import engine
+import statistics
+import os
 
+SAVE_DIR = "artworks"
+os.makedirs(SAVE_DIR, exist_ok=True)
+
+save_count = 0
 EXPORT_WIDTH = 800
 EXPORT_HEIGHT = 600
 ART_STYLE = "mandala"
@@ -14,6 +20,13 @@ save_next = False
 agents = [Agent() for _ in range(50)]
 time = 0
 running = True
+pattern_stable = False
+stability_history = []
+STABILITY_WINDOW = 50
+STABILITY_THRESHOLD = 0.5
+stable_hold_frames = 0
+AUTO_RESUME_AFTER = 100
+
 while running:
     fade_surface = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
     fade_surface.fill((0,0,0,20))
@@ -72,9 +85,44 @@ while running:
                 print("STYLE → MANDALA")
 
     for agent in agents:
-        agent.apply_behaviors(agents, time)
-        agent.update()
+        if not pattern_stable:
+            agent.apply_behaviors(agents, time)
+            agent.update()
         agent.draw(render_surface)
+
+    movement_change = 0
+    for agent in agents:
+        if len(agent.history) > 2:
+            p1 = agent.history[-1]
+            p2 = agent.history[-2]
+            movement_change += p1.distance_to(p2)
+    movement_change /= len(agents)
+    
+    stability_history.append(movement_change)
+    if len(stability_history) > STABILITY_WINDOW:
+        stability_history.pop(0)
+    if len(stability_history) == STABILITY_WINDOW:
+        variance = statistics.pstdev(stability_history)
+
+        if variance < STABILITY_THRESHOLD:
+            if not pattern_stable:
+                pattern_stable = True
+                stable_hold_frames = 0
+                print("🔒 PATTERN LOCKED — Frozen")
+            else:
+                stable_hold_frames += 1
+
+            if stable_hold_frames >= AUTO_RESUME_AFTER:
+                pattern_stable = False
+                stability_history.clear()
+                stable_hold_frames = 0
+                print("▶️ Auto Resume — Swarm moving again")
+
+        else:
+            if pattern_stable:
+                print("🔓 Pattern Unlocked — Movement restored")
+            pattern_stable = False
+            stable_hold_frames = 0
 
     scaled = pygame.transform.smoothscale(render_surface, (WIDTH, HEIGHT))
     screen.blit(scaled, (0,0))
@@ -89,7 +137,11 @@ while running:
     time += 0.005
     keys = pygame.key.get_pressed()
     if keys[pygame.K_s]:
-        pygame.image.save(render_surface, "art.png")
-        print("Saved Art!")
+        save_count += 1
+        filename = f"{ART_STYLE}_{save_count:03}.png"
+        filepath = os.path.join(SAVE_DIR, filename)
+        surface_to_save = render_surface if ART_STYLE == "geometric" else screen
+        pygame.image.save(surface_to_save, filepath)
+        print(f"🎨 Saved → {filepath}")
 
 pygame.quit()
