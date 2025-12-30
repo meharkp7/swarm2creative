@@ -6,11 +6,13 @@ import os
 import math
 SAVE_DIR = "artworks"
 os.makedirs(SAVE_DIR, exist_ok=True)
+print("Starting mode =", engine.ART_MODE)
 
 save_count = 0
 EXPORT_WIDTH = 800
 EXPORT_HEIGHT = 600
 ART_STYLE = "mandala"
+engine.ART_MODE = "chaos"
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.SRCALPHA)
 render_surface = pygame.Surface((EXPORT_WIDTH, EXPORT_HEIGHT), pygame.SRCALPHA)
@@ -25,8 +27,8 @@ time = 0
 running = True
 pattern_stable = False
 stability_history = []
-STABILITY_WINDOW = 50
-STABILITY_THRESHOLD = 0.5
+STABILITY_WINDOW = 100
+STABILITY_THRESHOLD = 0.15
 stable_hold_frames = 0
 AUTO_RESUME_AFTER = 100
 bg_color = [0,0,0]
