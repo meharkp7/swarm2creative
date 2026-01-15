@@ -13,7 +13,6 @@ ARCHITECTURE_COMMITTED = False
 ARCH_TIME = pygame.time.get_ticks()
 running = True
 
-# Visualization flags
 engine.SHOW_CONNECTIVITY = False
 engine.SHOW_HIERARCHY = False
 engine.SHOW_DOORS = False
@@ -90,7 +89,6 @@ while running:
         if architecture_surface:
             screen.blit(architecture_surface, (0, 0))
     
-    # Smart pruning with visual refresh
     if (
         engine.ARCHITECTURE_MODE
         and pygame.time.get_ticks() - ARCH_TIME > 10000
@@ -99,15 +97,12 @@ while running:
         engine.smart_prune_rooms(min_hits=120)
         engine.refresh_architecture_surface(architecture_surface)
     
-    # Auto-refresh on door changes
     if engine.ARCHITECTURE_MODE and engine.needs_visual_refresh():
         engine.refresh_architecture_surface(architecture_surface)
 
-    # Draw agents
     for agent in agents:
         agent.draw(screen)
 
-    # Visualization layers
     if ARCHITECTURE_COMMITTED:
         if engine.SHOW_CONNECTIVITY:
             engine.draw_connectivity_debug(screen)

@@ -30,17 +30,12 @@ ARCHITECTURE = {
     "agents": []
 }
 
-# Room connectivity graph
 ROOM_GRAPH = {
     "adjacencies": {},
     "door_links": {},
     "circulation_rooms": set(),
     "isolated_rooms": set()
 }
-
-# ============================================================================
-# BASIC SWARM BEHAVIORS
-# ============================================================================
 
 def get_neighbors(agent, agents, radius):
     neighbors = []
@@ -101,10 +96,6 @@ def export_architecture(agents):
     with open("architecture_paths.json", "w") as f:
         json.dump(data, f, indent=4)
     print("🏛 Exported → architecture_paths.json")
-
-# ============================================================================
-# ROOM CONNECTIVITY GRAPH FUNCTIONS
-# ============================================================================
 
 def get_room_key(room):
     """Convert room rect to hashable key"""
@@ -209,10 +200,6 @@ def draw_connectivity_debug(screen):
         if room:
             pygame.draw.rect(screen, (255, 100, 100), room, 3)
 
-# ============================================================================
-# DOOR-ROOM LOCKING & VALIDATION
-# ============================================================================
-
 def validate_and_lock_doors(min_door_spacing=25):
     """Ensure doors are properly validated"""
     valid_doors = []
@@ -278,10 +265,6 @@ def create_emergency_door(room, room_key):
         "normal": normal,
         "emergency": True
     })
-
-# ============================================================================
-# GLOBAL CIRCULATION HIERARCHY
-# ============================================================================
 
 def build_circulation_hierarchy():
     """Create hierarchical circulation structure"""
@@ -364,10 +347,6 @@ def circulation_hierarchy_force(agent):
     
     return force
 
-# ============================================================================
-# SMART PRUNING WITH CONNECTIVITY
-# ============================================================================
-
 def smart_prune_rooms(min_hits=40, min_age=240):
     """Intelligent pruning that considers connectivity"""
     alive = []
@@ -404,10 +383,6 @@ def smart_prune_rooms(min_hits=40, min_age=240):
     
     print(f"🧹 Smart prune → {len(alive)} rooms, {len(ROOM_GRAPH['isolated_rooms'])} isolated")
 
-# ============================================================================
-# ARCHITECTURE SURFACE AUTO-REFRESH
-# ============================================================================
-
 def needs_visual_refresh():
     """Check if architecture visuals need updating"""
     if not hasattr(needs_visual_refresh, "last_door_count"):
@@ -424,10 +399,6 @@ def refresh_architecture_surface(surface):
     """Redraw architecture on surface"""
     surface.fill((0, 0, 0, 0))
     draw_architecture(surface)
-
-# ============================================================================
-# ENHANCED VISUALIZATION
-# ============================================================================
 
 def draw_circulation_hierarchy(screen):
     """Visualize the circulation hierarchy"""
@@ -472,10 +443,6 @@ def draw_door_info(screen):
             else:
                 text = font.render("↔", True, color)
             screen.blit(text, (int(pos.x) - 8, int(pos.y) - 20))
-
-# ============================================================================
-# ARCHITECTURE DRAWING
-# ============================================================================
 
 def draw_architecture(screen):
     xs = [c.x for c in ARCHITECTURE["columns"]]
@@ -543,10 +510,6 @@ def draw_architecture(screen):
                 (int(pos.x - 10), int(pos.y)),
                 (int(pos.x + 10), int(pos.y)), 6)
 
-# ============================================================================
-# COLUMN & ANCHOR DETECTION
-# ============================================================================
-
 def detect_columns(agents, speed_threshold=0.6, min_count=4):
     columns = []
     for a in agents:
@@ -588,10 +551,6 @@ def cluster_columns(columns, radius=60):
         if not placed:
             clusters.append([c])
     return clusters
-
-# ============================================================================
-# ARCHITECTURE COMMITMENT
-# ============================================================================
 
 def commit_architecture(agents):
     global ARCH_COMMITTED
@@ -733,10 +692,6 @@ def commit_architecture(agents):
     
     print(f"🔗 Connectivity: {len(ROOM_GRAPH['circulation_rooms'])} circulation, {len(ROOM_GRAPH['isolated_rooms'])} isolated")
 
-# ============================================================================
-# CIRCULATION & CORRIDOR FORCES
-# ============================================================================
-
 def circulation_force(agent):
     force = pygame.Vector2(0, 0)
 
@@ -770,10 +725,6 @@ def corridor_force(agent):
             direction = 1 if agent.vel.x >= 0 else -1
             force.x += 0.35 * direction
     return force
-
-# ============================================================================
-# DOOR GENERATION
-# ============================================================================
 
 def generate_doors_from_hits(
     max_doors_per_room=2,
@@ -848,10 +799,6 @@ def draw_wall_with_doors(screen, y, x1, x2, thickness=4):
         if b > a:
             pygame.draw.line(screen, (180,180,200), (int(a), int(y)), (int(b), int(y)), thickness)
 
-# ============================================================================
-# WALL INTERACTION
-# ============================================================================
-
 def wall_repulsion(agent, buffer=16, strength=1.6):
     force = pygame.Vector2(0, 0)
     for a, b in ARCHITECTURE["walls"]:
@@ -924,10 +871,6 @@ def junction_damping(agent, radius=18, damping=0.45):
                 agent.vel *= damping
                 return
 
-# ============================================================================
-# DOOR INTERACTION
-# ============================================================================
-
 def door_attraction(agent):
     force = pygame.Vector2(0, 0)
     for d in ARCHITECTURE["doors"]:
@@ -981,10 +924,6 @@ def door_slow_zone(agent, radius=14):
         if agent.pos.distance_to(d["pos"]) < radius:
             agent.vel *= 0.75
 
-# ============================================================================
-# COLUMN INTERACTION
-# ============================================================================
-
 def column_repulsion(agent, strength=1.4, radius=26):
     force = pygame.Vector2(0,0)
     for c in ARCHITECTURE["primary_columns"]:
@@ -992,10 +931,6 @@ def column_repulsion(agent, strength=1.4, radius=26):
         if 0 < d < radius:
             force += (agent.pos - c).normalize() * (strength / d)
     return force
-
-# ============================================================================
-# ROOM MANAGEMENT
-# ============================================================================
 
 def record_room_usage(agent):
     for r in ARCHITECTURE["rooms"]:
@@ -1054,10 +989,6 @@ def evolve_rooms(min_age=300, promote_hits=140, demote_hits=30, kill_hits=8):
 def decay_room_memory(rate=0.995):
     for k in ROOM_HITS:
         ROOM_HITS[k] *= rate
-
-# ============================================================================
-# AGENT CLASS
-# ============================================================================
 
 class Agent:
     def __init__(self):
