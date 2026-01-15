@@ -183,7 +183,6 @@ def shift_color(color, t, emotion):
         speed = 1.2
     else:
         speed = 0.4
-    # smooth sine shift
     r = max(0, min(255, r + int(20 * math.sin(t * speed + 0))))
     g = max(0, min(255, g + int(20 * math.sin(t * speed + 2))))
     b = max(0, min(255, b + int(20 * math.sin(t * speed + 4))))
