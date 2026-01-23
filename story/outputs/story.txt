@@ -4,48 +4,84 @@
 🌱 INTRODUCTION
 
 At the beginning of the simulation, the swarm drifted calmly, its agents unaware of the tensions that would soon emerge.
-Agents Dax and Juno crossed paths, sensing unease for the first time.
-Agents Dax and Juno had escalating tensions.
-Agents Dax and Juno remained in conflict throughout the simulation.
-Agents Koda and Iris crossed paths, sensing unease for the first time.
-Agents Blip and Vira crossed paths, sensing unease for the first time.
-Agents Wren and Mara crossed paths, sensing unease for the first time.
-Agents Wren and Mara erupted into repeated confrontations.
+Agents Cleo and Faye crossed paths, sensing unease for the first time.
+Agents Vex and Jace crossed paths, sensing unease for the first time.
+Agents Yara and Haze crossed paths, sensing unease for the first time.
+Agents Cleo and Faye had escalating tensions.
+Agents Vex and Jace had escalating tensions.
+Agents Yara and Haze clashed multiple times.
+Agents Cleo and Faye remained in conflict throughout the simulation.
+Agents Quinn and Vira crossed paths, sensing unease for the first time.
+Agents Quinn and Vira erupted into repeated confrontations.
+Agents Rex and Cleo crossed paths, sensing unease for the first time.
+Agents Quinn and Vira remained in conflict throughout the simulation.
+Agents Rex and Cleo erupted into repeated confrontations.
+Agents Rex and Cleo escalated into a lasting rivalry.
+Agents Tess and Zara crossed paths, sensing unease for the first time.
+Agents Tess and Zara had escalating tensions.
+Agents Tess and Zara became a defining force within the swarm.
+Agents Blip and Koda crossed paths, sensing unease for the first time.
+Agents Blip and Koda had escalating tensions.
+Agents Glim and Aya crossed paths, sensing unease for the first time.
+Agents Glim and Aya clashed multiple times.
+Agents Blip and Koda remained in conflict throughout the simulation.
+Agents Fizz and Eli crossed paths, sensing unease for the first time.
+Agents Fizz and Eli engaged in a fierce standoff.
+Agents Fizz and Eli escalated into a lasting rivalry.
+Agents Nico and Fia crossed paths, sensing unease for the first time.
+Agents Nico and Fia clashed multiple times.
+Agents Nico and Fia remained in conflict throughout the simulation.
+Agents Vira and Rem crossed paths, sensing unease for the first time.
+Agents Vira and Rem clashed multiple times.
+Agents Vira and Rem remained in conflict throughout the simulation.
+Agents Rex and Haze crossed paths, sensing unease for the first time.
+Agents Rex and Haze had escalating tensions.
+Agents Rex and Haze remained in conflict throughout the simulation.
+Agents Quinn and Juno crossed paths, sensing unease for the first time.
+Agents Quinn and Juno had escalating tensions.
+Agents Quinn and Juno became a defining force within the swarm.
+Agents Fizz and Rex crossed paths, sensing unease for the first time.
+Agents Fizz and Rex erupted into repeated confrontations.
+Agents Fizz and Rex became a defining force within the swarm.
+Agents Fizz and Iris crossed paths, sensing unease for the first time.
+Agents Fizz and Iris engaged in a fierce standoff.
 
 ⚡ RISING CONFLICT
 
 As time passed, repeated encounters shaped relationships, and subtle tensions grew into open confrontations.
-Agents Juno and Vex crossed paths, sensing unease for the first time.
-Agents Nico and Jace crossed paths, sensing unease for the first time.
-Agents Juno and Vex had escalating tensions.
-Agents Wren and Mara escalated into a lasting rivalry.
-Agents Nico and Jace had escalating tensions.
-Agents Juno and Vex escalated into a lasting rivalry.
-Agents Nico and Jace remained in conflict throughout the simulation.
-Agents Rem and Zia crossed paths, sensing unease for the first time.
-Agents Astra and Echo crossed paths, sensing unease for the first time.
-Agents Rem and Zia had escalating tensions.
-Agents Astra and Echo engaged in a fierce standoff.
-Agents Rem and Zia became a defining force within the swarm.
-Agents Astra and Echo remained in conflict throughout the simulation.
-Agents Fizz and Milo crossed paths, sensing unease for the first time.
-Agents Fizz and Milo clashed multiple times.
-Agents Yara and Naya crossed paths, sensing unease for the first time.
-Agents Yara and Naya clashed multiple times.
+Agents Echo and Juno crossed paths, sensing unease for the first time.
+Agents Echo and Juno had escalating tensions.
+Agents Echo and Juno remained in conflict throughout the simulation.
+Agents Echo and Iris crossed paths, sensing unease for the first time.
+Agents Echo and Iris clashed multiple times.
+Agents Echo and Iris remained in conflict throughout the simulation.
+Agents Pip and Lina crossed paths, sensing unease for the first time.
+Agents Pip and Lina engaged in a fierce standoff.
+Agents Tia and Iris crossed paths, sensing unease for the first time.
+Agents Tia and Iris erupted into repeated confrontations.
+Agents Tia and Iris escalated into a lasting rivalry.
+Agents Milo and Orin crossed paths, sensing unease for the first time.
 
 🔥 CLIMAX
 
 In the final moments, unresolved conflicts surfaced, defining the fate of the swarm.
-Agents Xan and Lina crossed paths, sensing unease for the first time.
-Agents Yara and Naya remained in conflict throughout the simulation.
-Agents Xan and Lina had escalating tensions.
-Agents Xan and Lina escalated into a lasting rivalry.
-Agents Naya and Blip crossed paths, sensing unease for the first time.
-Agents Naya and Blip had escalating tensions.
-Agents Naya and Blip became a defining force within the swarm.
-Agents Orin and Kai crossed paths, sensing unease for the first time.
-Agents Orin and Kai had escalating tensions.
-Agents Orin and Kai escalated into a lasting rivalry.
+Agents Blip and Cleo crossed paths, sensing unease for the first time.
+Agents Blip and Cleo engaged in a fierce standoff.
+Agents Blip and Cleo remained in conflict throughout the simulation.
+Agents Nico and Astra crossed paths, sensing unease for the first time.
+Agents Nico and Astra engaged in a fierce standoff.
+Agents Nico and Astra escalated into a lasting rivalry.
+Agents Kip and Orin crossed paths, sensing unease for the first time.
+Agents Kip and Orin clashed multiple times.
+Agents Kip and Xan crossed paths, sensing unease for the first time.
+Agents Kip and Xan clashed multiple times.
+Agents Kip and Xan became a defining force within the swarm.
+Agents Dax and Blip crossed paths, sensing unease for the first time.
+Agents Kip and Rem crossed paths, sensing unease for the first time.
+Agents Kip and Rem engaged in a fierce standoff.
+Agents Kip and Rem became a defining force within the swarm.
+Agents Blip and Kip crossed paths, sensing unease for the first time.
+Agents Blip and Kip had escalating tensions.
 
 🧠 Epilogue:
 Though governed by simple rules, the swarm revealed complex relationships—a reminder that stories can emerge even from mathematics.

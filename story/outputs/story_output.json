@@ -1,77 +1,11 @@
 {
   "story_events": [
     {
-      "frame": 12,
+      "frame": 18,
       "event_type": "collision",
       "agents": [
-        3,
-        59
-      ],
-      "story_type": "tension",
-      "phase": "introduction",
-      "intensity": 1
-    },
-    {
-      "frame": 13,
-      "event_type": "collision",
-      "agents": [
-        3,
-        59
-      ],
-      "story_type": "conflict",
-      "phase": "introduction",
-      "intensity": 2
-    },
-    {
-      "frame": 14,
-      "event_type": "collision",
-      "agents": [
-        3,
-        59
-      ],
-      "story_type": "conflict",
-      "phase": "introduction",
-      "intensity": 3
-    },
-    {
-      "frame": 15,
-      "event_type": "collision",
-      "agents": [
-        3,
-        59
-      ],
-      "story_type": "rivalry",
-      "phase": "introduction",
-      "intensity": 4
-    },
-    {
-      "frame": 16,
-      "event_type": "collision",
-      "agents": [
-        3,
-        59
-      ],
-      "story_type": "rivalry",
-      "phase": "introduction",
-      "intensity": 5
-    },
-    {
-      "frame": 17,
-      "event_type": "collision",
-      "agents": [
-        3,
-        59
-      ],
-      "story_type": "rivalry",
-      "phase": "introduction",
-      "intensity": 6
-    },
-    {
-      "frame": 17,
-      "event_type": "collision",
-      "agents": [
-        33,
-        58
+        2,
+        26
       ],
       "story_type": "tension",
       "phase": "introduction",
@@ -81,7 +15,106 @@
       "frame": 18,
       "event_type": "collision",
       "agents": [
-        1,
+        21,
+        40
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 18,
+      "event_type": "collision",
+      "agents": [
+        24,
+        57
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 19,
+      "event_type": "collision",
+      "agents": [
+        2,
+        26
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 19,
+      "event_type": "collision",
+      "agents": [
+        21,
+        40
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 19,
+      "event_type": "collision",
+      "agents": [
+        24,
+        57
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 20,
+      "event_type": "collision",
+      "agents": [
+        2,
+        26
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 20,
+      "event_type": "collision",
+      "agents": [
+        21,
+        40
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 20,
+      "event_type": "collision",
+      "agents": [
+        24,
+        57
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 21,
+      "event_type": "collision",
+      "agents": [
+        2,
+        26
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 21,
+      "event_type": "collision",
+      "agents": [
+        16,
         34
       ],
       "story_type": "tension",
@@ -89,730 +122,1291 @@
       "intensity": 1
     },
     {
-      "frame": 18,
+      "frame": 22,
       "event_type": "collision",
       "agents": [
-        3,
-        59
+        2,
+        26
       ],
       "story_type": "rivalry",
       "phase": "introduction",
-      "intensity": 7
+      "intensity": 5
     },
     {
-      "frame": 19,
+      "frame": 22,
       "event_type": "collision",
       "agents": [
-        3,
-        59
+        16,
+        34
       ],
-      "story_type": "rivalry",
+      "story_type": "conflict",
       "phase": "introduction",
-      "intensity": 8
+      "intensity": 2
     },
     {
-      "frame": 19,
+      "frame": 23,
       "event_type": "collision",
       "agents": [
-        22,
-        32
+        16,
+        34
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 23,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
       ],
       "story_type": "tension",
       "phase": "introduction",
       "intensity": 1
     },
     {
-      "frame": 20,
+      "frame": 24,
       "event_type": "collision",
       "agents": [
-        3,
-        59
+        16,
+        34
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 24,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 25,
+      "event_type": "collision",
+      "agents": [
+        16,
+        34
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 5
+    },
+    {
+      "frame": 25,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 26,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 27,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 5
+    },
+    {
+      "frame": 28,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 6
+    },
+    {
+      "frame": 29,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 29,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 7
+    },
+    {
+      "frame": 30,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 30,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 8
+    },
+    {
+      "frame": 31,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 31,
+      "event_type": "collision",
+      "agents": [
+        42,
+        52
       ],
       "story_type": "rivalry",
       "phase": "introduction",
       "intensity": 9
     },
     {
-      "frame": 20,
+      "frame": 32,
       "event_type": "collision",
       "agents": [
-        22,
-        32
+        19,
+        30
       ],
-      "story_type": "conflict",
+      "story_type": "rivalry",
       "phase": "introduction",
-      "intensity": 2
-    },
-    {
-      "frame": 21,
-      "event_type": "collision",
-      "agents": [
-        3,
-        59
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 10
-    },
-    {
-      "frame": 21,
-      "event_type": "collision",
-      "agents": [
-        9,
-        21
-      ],
-      "story_type": "tension",
-      "phase": "rising_conflict",
-      "intensity": 1
-    },
-    {
-      "frame": 21,
-      "event_type": "collision",
-      "agents": [
-        22,
-        32
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 3
-    },
-    {
-      "frame": 21,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "tension",
-      "phase": "rising_conflict",
-      "intensity": 1
-    },
-    {
-      "frame": 22,
-      "event_type": "collision",
-      "agents": [
-        9,
-        21
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 2
-    },
-    {
-      "frame": 22,
-      "event_type": "collision",
-      "agents": [
-        22,
-        32
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
       "intensity": 4
     },
     {
-      "frame": 22,
+      "frame": 33,
       "event_type": "collision",
       "agents": [
-        27,
-        40
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 2
-    },
-    {
-      "frame": 23,
-      "event_type": "collision",
-      "agents": [
-        9,
-        21
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 3
-    },
-    {
-      "frame": 23,
-      "event_type": "collision",
-      "agents": [
-        22,
-        32
+        19,
+        30
       ],
       "story_type": "rivalry",
-      "phase": "rising_conflict",
+      "phase": "introduction",
       "intensity": 5
-    },
-    {
-      "frame": 23,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 3
-    },
-    {
-      "frame": 24,
-      "event_type": "collision",
-      "agents": [
-        9,
-        21
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 4
-    },
-    {
-      "frame": 24,
-      "event_type": "collision",
-      "agents": [
-        22,
-        32
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 6
-    },
-    {
-      "frame": 24,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 4
-    },
-    {
-      "frame": 25,
-      "event_type": "collision",
-      "agents": [
-        9,
-        21
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 5
-    },
-    {
-      "frame": 25,
-      "event_type": "collision",
-      "agents": [
-        22,
-        32
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 7
-    },
-    {
-      "frame": 25,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 5
-    },
-    {
-      "frame": 25,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "tension",
-      "phase": "rising_conflict",
-      "intensity": 1
-    },
-    {
-      "frame": 26,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "tension",
-      "phase": "rising_conflict",
-      "intensity": 1
-    },
-    {
-      "frame": 26,
-      "event_type": "collision",
-      "agents": [
-        9,
-        21
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 6
-    },
-    {
-      "frame": 26,
-      "event_type": "collision",
-      "agents": [
-        22,
-        32
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 8
-    },
-    {
-      "frame": 26,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 6
-    },
-    {
-      "frame": 26,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 2
-    },
-    {
-      "frame": 27,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 2
-    },
-    {
-      "frame": 27,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 7
-    },
-    {
-      "frame": 27,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 3
-    },
-    {
-      "frame": 28,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "conflict",
-      "phase": "rising_conflict",
-      "intensity": 3
-    },
-    {
-      "frame": 28,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 8
-    },
-    {
-      "frame": 28,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 4
-    },
-    {
-      "frame": 29,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 4
-    },
-    {
-      "frame": 29,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 9
-    },
-    {
-      "frame": 29,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 5
-    },
-    {
-      "frame": 30,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 5
-    },
-    {
-      "frame": 30,
-      "event_type": "collision",
-      "agents": [
-        27,
-        40
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 10
-    },
-    {
-      "frame": 30,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 6
-    },
-    {
-      "frame": 31,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 6
-    },
-    {
-      "frame": 31,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 7
-    },
-    {
-      "frame": 32,
-      "event_type": "collision",
-      "agents": [
-        0,
-        54
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 7
-    },
-    {
-      "frame": 32,
-      "event_type": "collision",
-      "agents": [
-        47,
-        49
-      ],
-      "story_type": "rivalry",
-      "phase": "rising_conflict",
-      "intensity": 8
     },
     {
       "frame": 34,
       "event_type": "collision",
       "agents": [
-        5,
-        12
+        19,
+        30
       ],
-      "story_type": "tension",
-      "phase": "rising_conflict",
-      "intensity": 1
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 6
     },
     {
       "frame": 35,
       "event_type": "collision",
       "agents": [
+        19,
+        30
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 7
+    },
+    {
+      "frame": 36,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 8
+    },
+    {
+      "frame": 37,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 9
+    },
+    {
+      "frame": 38,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 10
+    },
+    {
+      "frame": 39,
+      "event_type": "collision",
+      "agents": [
+        19,
+        30
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 11
+    },
+    {
+      "frame": 59,
+      "event_type": "collision",
+      "agents": [
+        1,
+        33
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 60,
+      "event_type": "collision",
+      "agents": [
+        1,
+        33
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 60,
+      "event_type": "collision",
+      "agents": [
+        6,
+        45
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 61,
+      "event_type": "collision",
+      "agents": [
+        1,
+        33
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 61,
+      "event_type": "collision",
+      "agents": [
+        6,
+        45
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 62,
+      "event_type": "collision",
+      "agents": [
+        1,
+        33
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 62,
+      "event_type": "collision",
+      "agents": [
+        6,
+        45
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 83,
+      "event_type": "collision",
+      "agents": [
         5,
-        12
+        35
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 84,
+      "event_type": "collision",
+      "agents": [
+        5,
+        35
       ],
       "story_type": "conflict",
-      "phase": "rising_conflict",
+      "phase": "introduction",
       "intensity": 2
     },
     {
-      "frame": 47,
+      "frame": 85,
       "event_type": "collision",
       "agents": [
-        24,
-        41
+        5,
+        35
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 86,
+      "event_type": "collision",
+      "agents": [
+        5,
+        35
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 166,
+      "event_type": "collision",
+      "agents": [
+        27,
+        43
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 167,
+      "event_type": "collision",
+      "agents": [
+        27,
+        43
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 168,
+      "event_type": "collision",
+      "agents": [
+        27,
+        43
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 169,
+      "event_type": "collision",
+      "agents": [
+        27,
+        43
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 170,
+      "event_type": "collision",
+      "agents": [
+        27,
+        43
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 5
+    },
+    {
+      "frame": 184,
+      "event_type": "collision",
+      "agents": [
+        34,
+        47
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 185,
+      "event_type": "collision",
+      "agents": [
+        34,
+        47
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 186,
+      "event_type": "collision",
+      "agents": [
+        34,
+        47
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 187,
+      "event_type": "collision",
+      "agents": [
+        34,
+        47
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 188,
+      "event_type": "collision",
+      "agents": [
+        17,
+        57
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 189,
+      "event_type": "collision",
+      "agents": [
+        17,
+        57
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 190,
+      "event_type": "collision",
+      "agents": [
+        17,
+        57
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 191,
+      "event_type": "collision",
+      "agents": [
+        17,
+        57
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 192,
+      "event_type": "collision",
+      "agents": [
+        17,
+        57
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 5
+    },
+    {
+      "frame": 381,
+      "event_type": "collision",
+      "agents": [
+        16,
+        59
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 382,
+      "event_type": "collision",
+      "agents": [
+        16,
+        59
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 383,
+      "event_type": "collision",
+      "agents": [
+        16,
+        59
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 384,
+      "event_type": "collision",
+      "agents": [
+        16,
+        59
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 385,
+      "event_type": "collision",
+      "agents": [
+        16,
+        59
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 5
+    },
+    {
+      "frame": 395,
+      "event_type": "collision",
+      "agents": [
+        5,
+        17
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 396,
+      "event_type": "collision",
+      "agents": [
+        5,
+        17
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 397,
+      "event_type": "collision",
+      "agents": [
+        5,
+        17
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 3
+    },
+    {
+      "frame": 398,
+      "event_type": "collision",
+      "agents": [
+        5,
+        17
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 4
+    },
+    {
+      "frame": 399,
+      "event_type": "collision",
+      "agents": [
+        5,
+        17
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 5
+    },
+    {
+      "frame": 400,
+      "event_type": "collision",
+      "agents": [
+        5,
+        17
+      ],
+      "story_type": "rivalry",
+      "phase": "introduction",
+      "intensity": 6
+    },
+    {
+      "frame": 484,
+      "event_type": "collision",
+      "agents": [
+        5,
+        8
+      ],
+      "story_type": "tension",
+      "phase": "introduction",
+      "intensity": 1
+    },
+    {
+      "frame": 485,
+      "event_type": "collision",
+      "agents": [
+        5,
+        8
+      ],
+      "story_type": "conflict",
+      "phase": "introduction",
+      "intensity": 2
+    },
+    {
+      "frame": 579,
+      "event_type": "collision",
+      "agents": [
+        4,
+        9
       ],
       "story_type": "tension",
       "phase": "rising_conflict",
       "intensity": 1
     },
     {
-      "frame": 48,
+      "frame": 580,
       "event_type": "collision",
       "agents": [
-        24,
-        41
+        4,
+        9
       ],
       "story_type": "conflict",
       "phase": "rising_conflict",
       "intensity": 2
     },
     {
-      "frame": 49,
+      "frame": 581,
       "event_type": "collision",
       "agents": [
-        24,
-        41
+        4,
+        9
       ],
       "story_type": "conflict",
-      "phase": "climax",
+      "phase": "rising_conflict",
       "intensity": 3
     },
     {
-      "frame": 50,
+      "frame": 582,
       "event_type": "collision",
       "agents": [
-        23,
+        4,
+        9
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 4
+    },
+    {
+      "frame": 583,
+      "event_type": "collision",
+      "agents": [
+        4,
+        9
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 5
+    },
+    {
+      "frame": 607,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "tension",
+      "phase": "rising_conflict",
+      "intensity": 1
+    },
+    {
+      "frame": 608,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "conflict",
+      "phase": "rising_conflict",
+      "intensity": 2
+    },
+    {
+      "frame": 609,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "conflict",
+      "phase": "rising_conflict",
+      "intensity": 3
+    },
+    {
+      "frame": 610,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 4
+    },
+    {
+      "frame": 611,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 5
+    },
+    {
+      "frame": 612,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 6
+    },
+    {
+      "frame": 613,
+      "event_type": "collision",
+      "agents": [
+        4,
+        8
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 7
+    },
+    {
+      "frame": 615,
+      "event_type": "collision",
+      "agents": [
+        15,
         37
+      ],
+      "story_type": "tension",
+      "phase": "rising_conflict",
+      "intensity": 1
+    },
+    {
+      "frame": 616,
+      "event_type": "collision",
+      "agents": [
+        15,
+        37
+      ],
+      "story_type": "conflict",
+      "phase": "rising_conflict",
+      "intensity": 2
+    },
+    {
+      "frame": 629,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "tension",
+      "phase": "rising_conflict",
+      "intensity": 1
+    },
+    {
+      "frame": 630,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "conflict",
+      "phase": "rising_conflict",
+      "intensity": 2
+    },
+    {
+      "frame": 631,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "conflict",
+      "phase": "rising_conflict",
+      "intensity": 3
+    },
+    {
+      "frame": 632,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 4
+    },
+    {
+      "frame": 633,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 5
+    },
+    {
+      "frame": 634,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 6
+    },
+    {
+      "frame": 635,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 7
+    },
+    {
+      "frame": 636,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 8
+    },
+    {
+      "frame": 637,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 9
+    },
+    {
+      "frame": 638,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 10
+    },
+    {
+      "frame": 639,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 11
+    },
+    {
+      "frame": 640,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 12
+    },
+    {
+      "frame": 641,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 13
+    },
+    {
+      "frame": 642,
+      "event_type": "collision",
+      "agents": [
+        46,
+        58
+      ],
+      "story_type": "rivalry",
+      "phase": "rising_conflict",
+      "intensity": 14
+    },
+    {
+      "frame": 831,
+      "event_type": "collision",
+      "agents": [
+        12,
+        14
+      ],
+      "story_type": "tension",
+      "phase": "rising_conflict",
+      "intensity": 1
+    },
+    {
+      "frame": 1338,
+      "event_type": "collision",
+      "agents": [
+        1,
+        52
       ],
       "story_type": "tension",
       "phase": "climax",
       "intensity": 1
     },
     {
-      "frame": 50,
+      "frame": 1339,
       "event_type": "collision",
       "agents": [
-        24,
-        41
-      ],
-      "story_type": "rivalry",
-      "phase": "climax",
-      "intensity": 4
-    },
-    {
-      "frame": 51,
-      "event_type": "collision",
-      "agents": [
-        23,
-        37
+        1,
+        52
       ],
       "story_type": "conflict",
       "phase": "climax",
       "intensity": 2
     },
     {
-      "frame": 52,
+      "frame": 1340,
       "event_type": "collision",
       "agents": [
-        23,
-        37
+        1,
+        52
       ],
       "story_type": "conflict",
       "phase": "climax",
       "intensity": 3
     },
     {
-      "frame": 53,
+      "frame": 1341,
       "event_type": "collision",
       "agents": [
-        23,
-        37
+        1,
+        52
       ],
       "story_type": "rivalry",
       "phase": "climax",
       "intensity": 4
     },
     {
-      "frame": 53,
+      "frame": 1408,
       "event_type": "collision",
       "agents": [
-        41,
-        51
+        27,
+        50
       ],
       "story_type": "tension",
       "phase": "climax",
       "intensity": 1
     },
     {
-      "frame": 54,
+      "frame": 1409,
       "event_type": "collision",
       "agents": [
-        41,
-        51
+        27,
+        50
       ],
       "story_type": "conflict",
       "phase": "climax",
       "intensity": 2
     },
     {
-      "frame": 55,
+      "frame": 1410,
       "event_type": "collision",
       "agents": [
-        41,
-        51
+        27,
+        50
       ],
       "story_type": "conflict",
       "phase": "climax",
       "intensity": 3
     },
     {
-      "frame": 56,
+      "frame": 1411,
       "event_type": "collision",
       "agents": [
-        41,
-        51
+        27,
+        50
       ],
       "story_type": "rivalry",
       "phase": "climax",
       "intensity": 4
     },
     {
-      "frame": 57,
+      "frame": 1412,
       "event_type": "collision",
       "agents": [
-        41,
-        51
+        27,
+        50
       ],
       "story_type": "rivalry",
       "phase": "climax",
       "intensity": 5
     },
     {
-      "frame": 58,
+      "frame": 1413,
       "event_type": "collision",
       "agents": [
-        41,
-        51
+        27,
+        50
       ],
       "story_type": "rivalry",
       "phase": "climax",
       "intensity": 6
     },
     {
-      "frame": 59,
+      "frame": 1542,
       "event_type": "collision",
       "agents": [
-        41,
-        51
-      ],
-      "story_type": "rivalry",
-      "phase": "climax",
-      "intensity": 7
-    },
-    {
-      "frame": 60,
-      "event_type": "collision",
-      "agents": [
-        41,
-        51
-      ],
-      "story_type": "rivalry",
-      "phase": "climax",
-      "intensity": 8
-    },
-    {
-      "frame": 61,
-      "event_type": "collision",
-      "agents": [
-        41,
-        51
-      ],
-      "story_type": "rivalry",
-      "phase": "climax",
-      "intensity": 9
-    },
-    {
-      "frame": 65,
-      "event_type": "collision",
-      "agents": [
-        14,
-        39
+        10,
+        14
       ],
       "story_type": "tension",
       "phase": "climax",
       "intensity": 1
     },
     {
-      "frame": 66,
+      "frame": 1543,
       "event_type": "collision",
       "agents": [
-        14,
-        39
+        10,
+        14
       ],
       "story_type": "conflict",
       "phase": "climax",
       "intensity": 2
     },
     {
-      "frame": 67,
+      "frame": 1544,
       "event_type": "collision",
       "agents": [
-        14,
-        39
+        10,
+        14
       ],
       "story_type": "conflict",
       "phase": "climax",
       "intensity": 3
     },
     {
-      "frame": 68,
+      "frame": 1554,
       "event_type": "collision",
       "agents": [
-        14,
-        39
+        10,
+        23
+      ],
+      "story_type": "tension",
+      "phase": "climax",
+      "intensity": 1
+    },
+    {
+      "frame": 1555,
+      "event_type": "collision",
+      "agents": [
+        10,
+        23
+      ],
+      "story_type": "conflict",
+      "phase": "climax",
+      "intensity": 2
+    },
+    {
+      "frame": 1556,
+      "event_type": "collision",
+      "agents": [
+        10,
+        23
+      ],
+      "story_type": "conflict",
+      "phase": "climax",
+      "intensity": 3
+    },
+    {
+      "frame": 1557,
+      "event_type": "collision",
+      "agents": [
+        10,
+        23
       ],
       "story_type": "rivalry",
       "phase": "climax",
       "intensity": 4
+    },
+    {
+      "frame": 1561,
+      "event_type": "collision",
+      "agents": [
+        3,
+        51
+      ],
+      "story_type": "tension",
+      "phase": "climax",
+      "intensity": 1
+    },
+    {
+      "frame": 1613,
+      "event_type": "collision",
+      "agents": [
+        10,
+        47
+      ],
+      "story_type": "tension",
+      "phase": "climax",
+      "intensity": 1
+    },
+    {
+      "frame": 1615,
+      "event_type": "collision",
+      "agents": [
+        10,
+        47
+      ],
+      "story_type": "conflict",
+      "phase": "climax",
+      "intensity": 2
+    },
+    {
+      "frame": 1616,
+      "event_type": "collision",
+      "agents": [
+        10,
+        47
+      ],
+      "story_type": "conflict",
+      "phase": "climax",
+      "intensity": 3
+    },
+    {
+      "frame": 1617,
+      "event_type": "collision",
+      "agents": [
+        10,
+        47
+      ],
+      "story_type": "rivalry",
+      "phase": "climax",
+      "intensity": 4
+    },
+    {
+      "frame": 1644,
+      "event_type": "collision",
+      "agents": [
+        1,
+        10
+      ],
+      "story_type": "tension",
+      "phase": "climax",
+      "intensity": 1
+    },
+    {
+      "frame": 1646,
+      "event_type": "collision",
+      "agents": [
+        1,
+        10
+      ],
+      "story_type": "conflict",
+      "phase": "climax",
+      "intensity": 2
+    },
+    {
+      "frame": 1648,
+      "event_type": "collision",
+      "agents": [
+        1,
+        10
+      ],
+      "story_type": "conflict",
+      "phase": "climax",
+      "intensity": 3
     }
   ]
 }
